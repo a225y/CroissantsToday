@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+ 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+} 
+.allPage .container-fluid {
+    height: 100vh;
+}
+.col-5{
+    background-color: #222D3A;
+    height: 100vh;
+}
+.col-3{
+    background-color: #F6F9F9;
+}
+.col-4{
+    background-color: #CFB18A;  
+}
+.main h1{
+    color: #F6F9F9;
+}
+h1 span{
+    color: rgb(250, 174, 74);
+}
+.calendarBox{
+    background-color: #e7af8c;
+    width: 200px;
+    height: 200px;
+    
+}
