@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
- 
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -8,25 +8,99 @@ body{
 .allPage .container-fluid {
     height: 100vh;
 }
-.col-5{
+.one{
     background-color: #222D3A;
     height: 100vh;
 }
-.col-3{
-    background-color: #F6F9F9;
+.two{
+ background-color: #FFF;   
 }
-.col-4{
+.three{
     background-color: #CFB18A;  
 }
+
 .main h1{
     color: #F6F9F9;
 }
 h1 span{
     color: rgb(250, 174, 74);
 }
-.calendarBox{
-    background-color: #e7af8c;
-    width: 200px;
-    height: 200px;
+.calendarBox,.lesson__pick{
+    color: #F6F9F9;
+    text-align: center;
     
 }
+.calendar__month{
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.calendar__table{
+    text-align: center;
+    font-size: 18px;
+}
+.calendar__week{
+    padding: 20px;
+}
+.changePage{
+    width: 100%;
+    display: flex;
+    
+}
+.changePage i{
+    width: 15px;
+    height: 15px;
+    border: 2px #222D3A solid;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+ .active{
+    background-color: #222D3A;
+     border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+} 
+.point{
+    width: 3px;
+    height: 3px;
+    background-color: rgb(235, 152, 97);
+}
+.btn a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #000;
+    transition: all ease 0.5s;
+}
+.btn:hover{
+    /* background-color: rgb(235, 152, 97); */
+    /* border-bottom: 3px rgb(235, 152, 97) solid; */
+}
+
+
+/* three */
+
+.three__title h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #F6F9F9;
+    margin-top: 20px;
+}
+.three__main{
+    padding: 25px;
+    color: #F6F9F9;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+.three__main span{
+    color: rgb(250, 174, 74);
+    margin-right: 15px;
+    font-size: 28px;
+   
+}
+
