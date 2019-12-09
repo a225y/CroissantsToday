@@ -69,16 +69,60 @@ h1 span{
     height: 3px;
     background-color: rgb(235, 152, 97);
 }
+.btn{
+    position: relative;
+    display: inline-block;
+}
 .btn a{
     text-decoration: none;
     letter-spacing: 5px;
     color: #000;
     transition: all ease 0.5s;
 }
-.btn:hover{
-    /* background-color: rgb(235, 152, 97); */
-    /* border-bottom: 3px rgb(235, 152, 97) solid; */
+/* 漸變Ｈover(重點) */
+:root {
+  --mainColor: rgb(250, 174, 74);
 }
+a {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+  color: #000;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+}
+     
+
+
+/* 底線位移效果 */
+/* .btn__hover::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: rgb(235, 152, 97);
+        transition: width .3s;
+}
+.btn__hover:hover::after{
+    width: 100%;
+    transition: width .3s;
+} */
 
 
 /* three */
