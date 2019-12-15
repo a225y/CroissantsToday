@@ -18,35 +18,40 @@ body{
 .three{
     background-color: #CFB18A;  
 }
+/******* one ************/
 
-.main h1{
+.main h1,h3{
     color: #F6F9F9;
+}
+h3{
+    text-align: center;
 }
 h1 span{
     color: rgb(250, 174, 74);
 }
-.calendarBox,.lesson__pick{
+.lesson__pick, 
+.calendarBox{
     color: #F6F9F9;
-    text-align: center;
-    
-}
-.calendar__month{
-    font-size: 28px;
-    letter-spacing: 4px;
-    font-weight: bold;
-}
-.calendar__table{
     text-align: center;
     font-size: 18px;
 }
-.calendar__week{
-    padding: 20px;
+.calendar__month{
+    font-size: 28px;
+    letter-spacing: 5px;
 }
+.gray{
+    color: gray;
+}
+
+
+
+/******* two ************/
+
 .changePage{
     width: 100%;
-    display: flex;
-    
+    display: flex;    
 }
+
 .changePage i{
     width: 15px;
     height: 15px;
