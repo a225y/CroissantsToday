@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -33,7 +35,7 @@ h1 span{
 .calendarBox{
     color: #F6F9F9;
     text-align: center;
-    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .calendar__month{
     font-size: 28px;
@@ -41,6 +43,16 @@ h1 span{
 }
 .gray{
     color: gray;
+}
+
+td{
+    width: 20px;
+    transition: all ease 0.3s;
+}
+td:hover{
+    cursor: pointer;
+    background-color: rgb(147, 183, 226);
+
 }
 
 
