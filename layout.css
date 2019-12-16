@@ -44,7 +44,9 @@ h1 span{
 .gray{
     color: gray;
 }
-
+th{
+    width: 50px;
+}
 td{
     width: 20px;
     transition: all ease 0.3s;
